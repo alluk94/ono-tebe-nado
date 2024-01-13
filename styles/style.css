@@ -1,1 +1,74 @@
-/* место для вашего кода */
+/* ========= START HEADER STYLES =============== */
+
+.header {
+  display: grid;
+  grid-template-columns: 454px 1fr 450px;
+  align-items: center;
+  padding: 92px 24px 96px 24px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* Nav menu */
+
+.header__menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.header__menu-item {
+  text-underline-offset: 4px;
+  list-style-type: circle;
+}
+
+.header__menu-item_active {
+  list-style-type: none;
+}
+
+.header__menu-item_active .header__menu-link {
+  text-decoration: none;
+}
+
+.header__menu-link
+
+
+/* Logo */
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+
+/* Address */
+
+.address {
+  padding-left: 184px;
+  font-style: normal;
+  line-height: 24.3px;
+  text-underline-offset: 4px;
+}
+
+/* ========= END HEADER STYLES ========= */
+
+/* ========= START COVER SECTION STYLES ========= */
+
+.cover {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 757px;
+}
+
+
+
+
+/* ========= END COVER SECTION STYLES ========= */
+
