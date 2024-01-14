@@ -2,7 +2,7 @@
 
 .header {
   display: grid;
-  grid-template-columns: 454px 148px 450px;
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 24px 94px 24px;
   font-size: 18px;
@@ -11,8 +11,10 @@
 /* Nav menu */
 
 .header__menu {
-  width: 454px;
-  padding: 44px 36px 40px 26.5px;
+  max-width: 454px;
+  width: 100%;
+  align-items: center;
+  padding-left: 28px;
 }
 
 .header__menu-list {
@@ -43,7 +45,8 @@
 /* Address */
 
 .address {
-  padding-left: 184px;
+  justify-self: end;
+  padding-right: 60px;
   font-style: normal;
   line-height: 24.3px;
   text-underline-offset: 4px;
@@ -126,10 +129,6 @@
 
 /* Description -> Button */
 
-.cover__description-button {
-  text-decoration: none;
-}
-
 .bet-button {
   border: 1px solid #fff;
   padding: 12px 32px 11px 31px;
@@ -168,7 +167,6 @@
 }
 
 .lots__card-list-item {
-
   width: 334px;
   min-height: 563px;
   flex-grow: 1;
@@ -264,8 +262,7 @@
 /* =============== START ABOUT SECTION STYLES =============== */
 
 .about {
-  width: 1052px;
-  height: 595px;
+  max-width: 1052px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 181px;
