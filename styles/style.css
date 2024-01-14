@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 454px 148px 450px;
   align-items: center;
-  padding: 92px 24px 96px 24px;
+  padding: 92px 24px 94px 24px;
   font-size: 18px;
 }
 
@@ -35,7 +35,7 @@
 
 /* Logo */
 
-.header__logo {
+.header__logo-image {
   width: 148px;
   height: 105px;
 }
@@ -188,7 +188,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 /* 3 Cards types */
@@ -354,3 +353,4 @@
   gap: 48px;
 }
 
+/* =============== END FOOTER SECTION STYLES =============== */
